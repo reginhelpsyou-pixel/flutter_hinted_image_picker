@@ -74,7 +74,7 @@ class HintedImagePicker extends StatefulWidget {
   final double size;
 
   /// Visual shape of the picker: circle, rounded, or square.
-  final PickerShape shape;
+  final PickerShape shape; 
 
   /// Only used when [shape] is [PickerShape.rounded]. Defaults to a 12px radius.
   final BorderRadius? borderRadius;
