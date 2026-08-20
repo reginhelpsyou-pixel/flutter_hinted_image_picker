@@ -229,16 +229,16 @@ class _HintedImagePickerState extends State<HintedImagePicker> {
     widget.onImageRemoved?.call();
   }
 
-  BorderRadius _resolveBorderRadius() {
-    switch (widget.shape) {
-      case PickerShape.circle:
-        return BorderRadius.circular(widget.size);
-      case PickerShape.square:
-        return BorderRadius.zero;
-      case PickerShape.rounded:
-        return widget.borderRadius ?? BorderRadius.circular(12);
-    }
-  }
+  // BorderRadius _resolveBorderRadius() {
+  //   switch (widget.shape) {
+  //     case PickerShape.circle:
+  //       return BorderRadius.circular(widget.size);
+  //     case PickerShape.square:
+  //       return BorderRadius.zero;
+  //     case PickerShape.rounded:
+  //       return widget.borderRadius ?? BorderRadius.circular(12);
+  //   }
+  // }
 
   ShapeBorder _resolveMaterialShape() {
     switch (widget.shape) {
@@ -296,7 +296,7 @@ class _HintedImagePickerState extends State<HintedImagePicker> {
 
   @override
   Widget build(BuildContext context) {
-    final radius = _resolveBorderRadius();
+    // final radius = _resolveBorderRadius();
     final materialShape = _resolveMaterialShape();
 
     return Stack(
@@ -543,16 +543,16 @@ class _HintedMultiImagePickerState extends State<HintedMultiImagePicker> {
     widget.onImagesCleared?.call();
   }
 
-  BorderRadius _resolveBorderRadius() {
-    switch (widget.shape) {
-      case PickerShape.circle:
-        return BorderRadius.circular(widget.size);
-      case PickerShape.square:
-        return BorderRadius.zero;
-      case PickerShape.rounded:
-        return widget.borderRadius ?? BorderRadius.circular(12);
-    }
-  }
+  // BorderRadius _resolveBorderRadius() {
+  //   switch (widget.shape) {
+  //     case PickerShape.circle:
+  //       return BorderRadius.circular(widget.size);
+  //     case PickerShape.square:
+  //       return BorderRadius.zero;
+  //     case PickerShape.rounded:
+  //       return widget.borderRadius ?? BorderRadius.circular(12);
+  //   }
+  // }
 
   ShapeBorder _resolveMaterialShape() {
     switch (widget.shape) {
