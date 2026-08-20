@@ -23,7 +23,7 @@ A Flutter widget that wraps [`image_picker`](https://pub.dev/packages/image_pick
 
 ```yaml
 dependencies:
-  hinted_image_picker: ^0.0.1
+  hinted_image_picker: ^0.1.0
 ```
 
 ```bash

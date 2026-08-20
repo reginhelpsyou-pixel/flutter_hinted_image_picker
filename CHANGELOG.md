@@ -1,4 +1,4 @@
-## 0.0.1
+## 0.1.0
 
 * Initial release.
 * `HintedImagePicker`: single-image picker with hint/thumbnail states, InkWell ripple, hover elevation, lightened hint overlay with customizable icon, camera/gallery source selector.
